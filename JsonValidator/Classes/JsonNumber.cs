@@ -1,4 +1,4 @@
-namespace Json
+namespace Json.Classes
 {
     public static class JsonNumber
     {

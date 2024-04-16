@@ -1,4 +1,4 @@
-namespace Json
+namespace Json.Classes
 {
     public static class JsonString
     {
@@ -87,7 +87,7 @@ namespace Json
 
         private static bool HexRange(char character)
         {
-            return (character >= 'a' && character <= 'f') || (character >= 'A' && character <= 'F');
+            return character >= 'a' && character <= 'f' || character >= 'A' && character <= 'F';
         }
     }
 }

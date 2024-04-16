@@ -1,8 +1,7 @@
-﻿
-using Xunit;
-using static Json.JsonNumber;
+﻿using Xunit;
+using static Json.Classes.JsonNumber;
 
-namespace Json
+namespace JsonFacts.Classes
 {
     public class JsonNumberFacts
     {

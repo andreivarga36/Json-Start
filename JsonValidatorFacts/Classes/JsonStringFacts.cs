@@ -1,7 +1,7 @@
 using Xunit;
-using static Json.JsonString;
+using static Json.Classes.JsonString;
 
-namespace Json
+namespace JsonFacts.Classes
 {
     public class JsonStringFacts
     {
@@ -10,7 +10,7 @@ namespace Json
         {
             Assert.True(IsJsonString(Quoted("abc")));
         }
-        
+
         [Fact]
         public void IsJsonString_AlwaysStartsWithQuotes_ShouldReturnFalse()
         {
